@@ -70,7 +70,7 @@ section h2 {
 section ul {
     list-style-type: disc;
     padding-left: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 footer {
