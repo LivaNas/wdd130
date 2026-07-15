@@ -9,13 +9,12 @@ main h1 {
 
 aside {
     width: 100%;
-    max-width: 350px;
     margin: 20px auto;
     border: 1px solid #ccc;
     padding: 15px;
     background-color: #f2f2f2;
     color: #333;
-    border-radius: 10px;
+
 }
 
 aside img {
@@ -33,9 +32,11 @@ main img {
 
 img {
     display: block;
+    width: 100%;
     max-width: 350px;
     margin: 20px auto;
     border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 p {
@@ -49,16 +50,6 @@ footer {
     text-align: center;
     padding: 10px 20px;
     font-size: 1.5rem;
-}
-
-img {
-    display: block;
-    width: 100%;
-    max-width: 350px;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
-
 }
 
 section {
